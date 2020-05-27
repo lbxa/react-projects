@@ -10,7 +10,7 @@ class PostList extends Component {
   }
 
   renderList() {
-    return this.props.posts.map(post => {
+    return this.props.posts.map((post) => {
       return (
         <div className="item" key={post.id}>
           <i className="large middle aligned icon user" />
@@ -31,12 +31,12 @@ class PostList extends Component {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    posts: state.posts
+    posts: state.posts,
   };
 };
 
 export default connect(mapStateToProps, {
-  fetchPosts: fetchPosts
+  fetchPosts: fetchPosts,
 })(PostList);
