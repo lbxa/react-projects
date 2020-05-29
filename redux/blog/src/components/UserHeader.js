@@ -20,11 +20,11 @@ class UserHeader extends Component {
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    user: state.users.find(user => user.id === ownProps.userId)
+    user: state.users.find((user) => user.id === ownProps.userId),
   };
 };
 
 // connecting action creators to component!!!
 export default connect(mapStateToProps, {
-  fetchUser: fetchUser
+  fetchUser: fetchUser,
 })(UserHeader);
