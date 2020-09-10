@@ -1,28 +1,34 @@
 {
   "streams": [
     {
-      "title": "Undefined behaviour",
-      "description": "Didn't expect that from the CSE server machines. Can anyone explain that runtime error?",
+      "title": "Undefined behaviour v3.",
+      "description": "Didn't expect that from the CSE server machines. Can anyone explain that runtime error? Also John Shepherd vs Andrew Taylor, who is the more formidable first year lecturer?",
       "userId": "103306785469845444315",
       "id": 11
     },
     {
       "title": "This is an example of programmatic navigation using reactor-router-dom.",
-      "description": "Using  the history.push(\"/\") will do the trick here.",
+      "description": "Using  the history.push(\"/\") will do the trick here. Check this stream out for more details on this bug.",
       "userId": "103306785469845444315",
       "id": 12
     },
     {
-      "title": "This is a test of the new form + the use of a Modal.",
+      "title": "This is a test of the new form plus the use of a Modal.",
       "description": "It looks like everything is working so far. Lets keep up this good work people. This is how we succeed in this world. By doing, every single day. We gotta do.",
       "userId": "103306785469845444315",
       "id": 13
     },
     {
       "title": "PUT vs PATCH",
-      "description": "This involves updating either all of the properties of an object or just 'some' properties.",
+      "description": "This involves updating either all of the properties of an object or just 'some' properties. I wonder what will happen if this stream gets 1000 views.",
       "userId": "103306785469845444315",
       "id": 14
+    },
+    {
+      "title": "Yes this is a new stream and I am so cool.",
+      "description": "I really enjoyed making this app. Wasn't as challenging as I hoped but still lots of fun. Luckily the features are simple and robust. Never using react router on a deployable app however.",
+      "userId": "103306785469845444315",
+      "id": 15
     }
   ]
 }
